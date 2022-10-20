@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var salaryList_1 = require("./salaryList");
+var salaryList = new salaryList_1.SalaryList();
+salaryList.insertFirst(1, 12000000);
+salaryList.insertFirst(2, 13000000);
+salaryList.insertFirst(3, 14000000);
+salaryList.insertFirst(4, 11000000);
+console.log(salaryList.showList());
+console.log(salaryList.totalSalary());
+console.log(salaryList.highestSalary());
